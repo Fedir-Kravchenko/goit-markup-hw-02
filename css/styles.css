@@ -48,6 +48,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: #2196f3;
+}
+
 /* contacts */
 .mail,
 .phone {
@@ -111,14 +115,14 @@ body {
 }
 
 /* buttons for portfolio */
-.buttons .btn {
+
+.btn {
   background-color: #f5f4fa;
   color: var(--main-text-color);
-  border: 0;
 }
 
-.buttons .btn:hover,
-.buttons .btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--accent-color);
   color: var(--footer-logo-color);
 }
