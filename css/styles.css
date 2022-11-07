@@ -1,0 +1,82 @@
+/* Колір лого #2196F3; #000000 */
+/* Основний колір тексту #212121; */
+/* Другорядний колір #757575; */
+/* Колір акценту #2196F3 */
+/* Кольори у футері
+#ffffff
+rgba(255, 255, 255, 0.6); */
+/* 1й колір фона #ffffff */
+/* 2й колір фона #2F303A */
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header stylization */
+
+.logo {
+  color: black;
+}
+
+.logo:focus,
+.logo:hover {
+  color: #2196f3;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: #2196f3;
+}
+
+/* contacts */
+.mail,
+.phone {
+  color: #757575;
+}
+
+.contacts .mail:hover,
+.contacts .mail:focus,
+.contacts .phone:hover,
+.contacts .phone:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+/* колір для тексту у секціях */
+
+.section .section-text {
+  color: #757575;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer .footer-address {
+  color: #ffffff;
+}
+
+.footer .footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
