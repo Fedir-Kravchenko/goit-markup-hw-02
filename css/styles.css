@@ -71,6 +71,19 @@ body {
   color: var(--footer-logo-color);
 }
 
+/* Button for first page*/
+
+.button {
+  color: var(--footer-logo-color);
+  background-color: var(--accent-color);
+}
+
+.button:hover,
+.batton:focus {
+  color: var(--accent-color);
+  background-color: var(--footer-logo-color);
+}
+
 /* колір для тексту у секціях */
 
 .section .section-text {
@@ -92,33 +105,37 @@ body {
   color: var(--footer-logo-color);
 }
 
-.footer .footer-address {
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accent-color);
+}
+
+.footer-address {
   color: var(--footer-logo-color);
 }
 
-.footer .footer-contact {
+.footer-contact {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* portfolio */
-/* Button for first page*/
-
-.button {
-  color: var(--footer-logo-color);
-  background-color: var(--accent-color);
-}
-
-.button:hover,
-.batton:focus {
+.footer-address:hover,
+.footer-address:focus,
+.footer-contact:hover,
+.footer-contact:focus {
   color: var(--accent-color);
-  background-color: var(--footer-logo-color);
 }
 
+/* portfolio */
 /* buttons for portfolio */
 
 .btn {
   background-color: #f5f4fa;
   color: var(--main-text-color);
+}
+
+.btn.current {
+  background-color: var(--accent-color);
+  color: var(--footer-logo-color);
 }
 
 .btn:hover,
