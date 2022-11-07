@@ -13,14 +13,10 @@ body {
   color: #212121;
 }
 
-ul {
-  list-style: none;
-}
-
 /* Header stylization */
 
 .logo {
-  color: black;
+  color: #000000;
 }
 
 .logo:focus,
@@ -79,4 +75,18 @@ ul {
 
 .footer .footer-contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+/* Butons*/
+.buttons .btn {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: 0;
+}
+
+.buttons .btn:hover,
+.buttons .btn:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
