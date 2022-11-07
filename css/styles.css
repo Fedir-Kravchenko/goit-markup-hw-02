@@ -8,69 +8,87 @@ rgba(255, 255, 255, 0.6); */
 /* 1й колір фона #ffffff */
 /* 2й колір фона #2F303A */
 
+:root {
+  --main-text-color: #212121;
+  --logo-color: #000000;
+  --accent-color: #2196f3;
+  --secondary-color: #757575;
+  --hero-footer-background: #2f303a;
+  --footer-logo-color: #ffffff;
+}
+
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--footer-logo-color);
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
 }
 
 /* Header stylization */
 
 .logo {
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .logo:focus,
 .logo:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--main-text-color);
 }
 
 .site-nav .link:focus,
 .site-nav .link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* contacts */
 .mail,
 .phone {
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .contacts .mail:hover,
 .contacts .mail:focus,
 .contacts .phone:hover,
 .contacts .phone:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Hero */
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--hero-footer-background);
+  color: var(--footer-logo-color);
 }
 
 /* колір для тексту у секціях */
 
 .section .section-text {
-  color: #757575;
+  color: var(--secondary-color);
+}
+
+/* team */
+.team {
+  background-color: #f5f4fa;
 }
 
 /* Footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--hero-footer-background);
 }
 
 .footer-logo {
-  color: #ffffff;
+  color: var(--footer-logo-color);
 }
 
 .footer .footer-address {
-  color: #ffffff;
+  color: var(--footer-logo-color);
 }
 
 .footer .footer-contact {
@@ -81,12 +99,12 @@ body {
 /* Butons*/
 .buttons .btn {
   background-color: #f5f4fa;
-  color: #212121;
+  color: var(--main-text-color);
   border: 0;
 }
 
 .buttons .btn:hover,
 .buttons .btn:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--footer-logo-color);
 }
