@@ -97,7 +97,20 @@ body {
 }
 
 /* portfolio */
-/* Butons*/
+/* Button for first page*/
+
+.button {
+  color: var(--footer-logo-color);
+  background-color: var(--accent-color);
+}
+
+.button:hover,
+.batton:focus {
+  color: var(--accent-color);
+  background-color: var(--footer-logo-color);
+}
+
+/* buttons for portfolio */
 .buttons .btn {
   background-color: #f5f4fa;
   color: var(--main-text-color);
