@@ -80,10 +80,8 @@ body {
 .hero {
   background-color: var(--hero-footer-background);
   color: var(--footer-logo-color);
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
 }
 
 /* Button for first page*/
@@ -105,9 +103,8 @@ body {
 
 /* колір для тексту у секціях і шрифти*/
 
-.advantages h2 {
+.advantages .title-del {
   color: rgba(0, 0, 0, 0.2);
-  text-align: center;
 }
 
 .list .section-title {
@@ -125,7 +122,6 @@ body {
 .team > .section-title {
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
 }
 
 /* team */
@@ -177,21 +173,15 @@ body {
 /* portfolio */
 /* buttons for portfolio */
 
-.section.list-button h1,
-.section.list-work h2 {
+.section.list-button .title-del,
+.section.list-work .title-del {
   color: rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
-.section.list-button {
-  text-align: center;
 }
 
 .btn {
   background-color: #f5f4fa;
   cursor: pointer;
   color: var(--main-text-color);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
 }
