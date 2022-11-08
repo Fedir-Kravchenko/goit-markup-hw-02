@@ -21,6 +21,11 @@ rgba(255, 255, 255, 0.6); */
 body {
   background-color: var(--footer-logo-color);
   color: var(--main-text-color);
+  font-family: roboto, sans-serif;
+}
+
+.section a {
+  text-decoration: none;
 }
 
 .list {
@@ -31,16 +36,18 @@ body {
 
 .logo {
   color: var(--logo-color);
-}
-
-.logo:focus,
-.logo:hover {
-  color: var(--accent-color);
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 /* site-nav */
 .site-nav .link {
   color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link:focus,
@@ -56,6 +63,9 @@ body {
 .mail,
 .phone {
   color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .contacts .mail:hover,
@@ -69,13 +79,21 @@ body {
 .hero {
   background-color: var(--hero-footer-background);
   color: var(--footer-logo-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
 
 /* Button for first page*/
 
 .button {
+  cursor: pointer;
   color: var(--footer-logo-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .button:hover,
@@ -84,10 +102,24 @@ body {
   background-color: var(--footer-logo-color);
 }
 
-/* колір для тексту у секціях */
+/* колір для тексту у секціях і шрифти*/
+
+.list .section-title {
+  font-size: 14px;
+  line-height: 1.14;
+}
 
 .section .section-text {
   color: var(--secondary-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.work .section-title,
+.team > .section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* team */
@@ -95,19 +127,30 @@ body {
   background-color: #f5f4fa;
 }
 
+.team-list .section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-list .section-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /* Footer */
 
 .footer {
   background-color: var(--hero-footer-background);
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-logo {
   color: var(--footer-logo-color);
-}
-
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--accent-color);
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .footer-address {
